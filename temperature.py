@@ -6,7 +6,7 @@ def get_weather(city_name, api_key):
     params = {
         "q": city_name,
         "appid": api_key,
-        "units": "metric"  # Celsius
+        "units": "metric" 
     }
 
     try:
